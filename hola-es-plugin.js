@@ -1,4 +1,4 @@
-videojs.registerPlugin('hola-es', function() {
+videojs.registerPlugin('hola', function() {
 
   var vhola = document.createElement("script");
   vhola.async = false;
@@ -14,7 +14,7 @@ videojs.registerPlugin('hola-es', function() {
     return;
 
   function init_hola() {
-    window.hola_cdn.init_estandard();
+    window.hola_cdn.init_independent_co_uk();
   }
   if (window.hola_cdn)
     init_hola();
